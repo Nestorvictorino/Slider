@@ -4,7 +4,7 @@ let contador = 1;
 let width = sliderIndividual[0].clientWidth + 5;
 let intervalo = 3000;
 let Ancho = screen.width;
-window.onresize = () => { location.reload}
+
 
 window.onresize = Myfunction;
 
