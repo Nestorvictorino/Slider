@@ -37,38 +37,7 @@ body{
                     margin-right: 5px;
                 }
             }
-            .botones{
-                text-align: center;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                width: 35px;
-                height: 7px;
-                position: absolute;
-                margin: 226px 195px 17px 20px;
-                .dot {
-                    cursor: pointer;
-                    height: 7px;
-                    width: 7px;
-                    background-color: #444;
-                    border-radius: 50%;
-                    display: inline-block;
-                    transition: background-color 0.6s ease;
-                    opacity: 0.5;                   
-                    &:hover{
-                        background-color: #444; 
-                        opacity: 1;
-                    }
-                }
-                .active{
-                    background-color: #444;
-                    opacity: 1;
-                }
-                .dot:nth-child(3), :nth-child(4), :nth-child(5), :nth-child(6){
-                    display: none;
-                }
-            } 
-        }
+        } 
 
         .main{
             display: flex;
