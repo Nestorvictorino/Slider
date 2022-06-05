@@ -1,1 +1,1 @@
-
+Slider for branding
